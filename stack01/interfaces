@@ -1,0 +1,4 @@
+auto eth1
+iface eth1 inet manual
+    up ifconfig $IFACE 0.0.0.0 up
+    down ifconfig $IFACE down
